@@ -1,0 +1,1 @@
+alert("powitanie z nowego pliku");

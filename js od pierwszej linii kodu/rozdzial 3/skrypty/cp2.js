@@ -1,0 +1,15 @@
+alert("cp2");
+let shoppingList = [];
+shoppingList.splice(0, 0, "mleko", "pieczywo", "jabłka");
+shoppingList.splice(1, 1, "banan", "jajka");
+shoppingList.pop();
+console.log(shoppingList);
+shoppingList.sort();
+let findIndex1 = shoppingList.indexOf("mleko");
+console.log(findIndex1);
+shoppingList.splice( 1, 0, "marchew", "sałata");
+newShoppingList = ["sok", "pop"];
+let newestShoppingList = shoppingList.concat(newShoppingList, newShoppingList);
+let lastPop = newestShoppingList.lastIndexOf("pop");
+console.log(newestShoppingList);
+console.log(lastPop);
